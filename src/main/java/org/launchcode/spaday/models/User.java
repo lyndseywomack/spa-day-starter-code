@@ -4,6 +4,7 @@ public class User {
 
     //Your User class should have a few private fields with getters and setters: username, email, password.
     //class variables
+    private int id;
     private String username;
     private String email;
     private String password;
@@ -17,6 +18,15 @@ public class User {
 //    }
 
     //getters and setters
+
+
+    public int getId() {
+        return id;
+    }
+
+    private void setId(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
